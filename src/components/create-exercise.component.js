@@ -63,7 +63,7 @@ export default class CreateExercise extends Component{
 
         console.log(exercise);
 
-        // window.location = '/';
+        window.location = '/';
     }
     
 
@@ -122,7 +122,7 @@ export default class CreateExercise extends Component{
                         <input type="submit"
                             className="btn btn-primary"
                             value="Create Exercise Log"
-                            onChange={ this.onChangeDuration }
+                            onChange={ this.onSubmit }
                             />
                     </div>
                 </form>
